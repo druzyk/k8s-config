@@ -6,7 +6,7 @@ metadata:
 data:
   config: |
     address-pools:
-    - name: default
+    - name: external-ips
       protocol: layer2
       addresses:
-      - 10.0.0.5-10.0.0.20
+      - 78.47.109.218
