@@ -1,0 +1,4 @@
+apiVersion: v2
+name: solvify-web
+description: A Helm chart for deploying a simple web page
+version: 0.1.0
