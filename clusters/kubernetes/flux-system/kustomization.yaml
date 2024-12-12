@@ -3,3 +3,8 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
+- ./namespaces/metallb.yaml
+- ./help-repositories/metallb.yaml
+- ./helm-releases/metallb.yaml
+- ./configs/metallb-ipaddresspool.yaml
+- ./configs/metallb-l2advertisement.yaml
