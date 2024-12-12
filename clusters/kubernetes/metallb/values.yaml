@@ -1,0 +1,3 @@
+memberlist:
+  enabled: true
+  bindPort: 7947 # Укажите новый порт
