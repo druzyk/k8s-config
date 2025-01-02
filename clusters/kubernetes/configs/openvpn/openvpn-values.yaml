@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: openvpn-values
+  namespace: openvpn
+data:
+  values.yaml: |
+    openvpn:
+      service:
+        type: LoadBalancer
+        externalIPs:
+          - 5.75.186.43
+      server:
+        subnet: 10.8.0.0/24
+        pushRoutes:
+          - 0.0.0.0/0
+      adminCredentials:
+        username: mama
+        password: mamapass
+      persistence:
+        enabled: true
+        size: 1Gi
+      clients:
+        - name: "mama"
+          staticIP: 10.8.0.2
