@@ -15,8 +15,8 @@ data:
         pushRoutes:
           - 0.0.0.0/0
       adminCredentials:
-        username: admin
-        password: adminpass
+        username: mama
+        password: mamapass
       persistence:
         enabled: true
         size: 1Gi
