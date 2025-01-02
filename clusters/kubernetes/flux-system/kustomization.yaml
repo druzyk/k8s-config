@@ -4,6 +4,6 @@ resources:
 - gotk-components.yaml
 - gotk-sync.yaml
 - ../namespaces/openvpn.yaml
-- ../help-repositories/k8s-at-home.yaml
+- ../helm-repositories/k8s-at-home.yaml
 - ../configs/openvpn/openvpn-values-configmap.yaml
 - ../helm-releases/openvpn-release.yaml
