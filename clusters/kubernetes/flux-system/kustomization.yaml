@@ -3,6 +3,6 @@ kind: Kustomization
 resources:
 - gotk-components.yaml
 - gotk-sync.yaml
-- ../../namespaces/openvpn.yaml
-- ../../help-repositories/k8s-at-home.yaml
-- ../../helm-releases/openvpn-release.yaml
+- ../namespaces/openvpn.yaml
+- ../help-repositories/k8s-at-home.yaml
+- ../helm-releases/openvpn-release.yaml
